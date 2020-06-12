@@ -1,0 +1,99 @@
+body {
+    background-color:#1d2029 ;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    position: absolute;
+    left:20% ;
+    top:20%;
+    color:white;
+    
+    
+}
+.h {
+    display: flex;
+    
+    
+}
+
+.switch{
+    position: absolute;
+    left: 50%;
+    
+}
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(4 , 55%);
+    grid-column-gap:1rem;
+    width:70%;
+   
+
+}
+
+.box {
+    
+    position: relative;
+    height: auto;
+    background:#252b43;
+    color:white;
+    text-align: center;
+    border-radius:5px;
+}
+
+.facebook-box{
+    border-top:solid 4px blue;
+    display:block;
+}
+
+#insta-box{
+    border-top:solid 4px #b38259;
+    display:block;
+}
+
+#youtube-box{
+border-top:solid 4px #4f203c ;
+}
+
+.icon{
+    position:relative;
+    top:10%;
+    left:-12%
+}
+
+.h2 {
+    padding-top: 25%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.second-part{
+    display:grid;
+    grid-template-columns: repeat(4, 55%);
+    grid-column-gap: 1rem;
+   
+    grid-row-gap:2rem;
+    width:70%;
+    
+}
+
+.Overview-box {
+    
+    position: relative;
+    height: auto;
+    background:#252b43;
+    color:white;
+    
+    border-radius:5px;
+}
+
+.inside-content{
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-column-gap: 2rem;
+    margin-left:15px ;
+}
+
+
+
